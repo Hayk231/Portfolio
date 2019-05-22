@@ -1,0 +1,91 @@
+.ParProj {
+    padding: 50px 0 40px 0;
+    box-shadow: 0 1px 4px 0 black;
+    width: 100%;
+    height: 100vh;
+}
+.ParProj h1 {
+    color: whitesmoke;
+    font-family: 'Ubuntu', cursive;
+}
+
+.Projects {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.Blocks {
+    height: 250px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    margin: 40px;
+    overflow: hidden;
+    box-shadow: 0 5px 8px 1px black;
+}
+
+.Blocks div {
+    height: 100%;
+    width: 100%;
+    background: #fefeffbf;
+    transition: all ease .3s;
+    margin-top: -250px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.Blocks div span {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.Blocks div div {
+    width: 85%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 40px;
+    font-family: 'Ubuntu', cursive;
+}
+
+.Blocks div i {
+    transform: scale(2);
+    color: black;
+    transition: all ease .5s;
+}
+.Blocks div i:hover {
+    transform: scale(3);
+}
+
+
+.Blocks:hover div {
+    margin-top: 0;
+}
+
+@media (max-width: 768px) {
+    .Blocks {
+        height: 150px;
+        width: 80%;
+        margin: 10px;
+    }
+    .Projects {
+        flex-direction: column;
+        align-items: center;
+    }
+    .ParProj h1 {
+        margin-bottom: 10px;
+    }
+    .Blocks div {
+        margin-top: -150px;
+    }
+    .Blocks div span {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .Blocks div div {
+        margin-bottom: 25px;
+        width: 75%;
+    }
+}

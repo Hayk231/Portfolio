@@ -1,0 +1,122 @@
+.Contact {
+    position: fixed;
+    left: -25px;
+    top: 20%;
+    z-index: 200;
+    display: flex;
+    flex-direction: column;
+    height: 370px;
+    width: 60px;
+    transition: all ease .5s;
+}
+.Round {
+    height: 100%;
+    background-color: whitesmoke;
+    transition: all ease .4s;
+    width: 360px;
+    margin-left: -338px;
+    border-bottom-right-radius: 50%;
+    border-top-right-radius: 50%;
+    cursor: pointer;
+}
+
+.Line {
+    height: 100%;
+    transform: scaleY(0.95);
+    width: 26px;
+    z-index: 201;
+    position: absolute;
+    background-color: whitesmoke;
+}
+
+
+.Contact a {
+    transition: all ease .5s;
+    position: absolute;
+}
+
+.Contact a i {
+    margin-top: 20px;
+    font-size: 50px;
+    transition: all ease .5s;
+}
+
+.Contact:hover .Round{
+    margin-left: -165px;
+}
+
+.Contact:hover .face{
+    margin-left: 35px;
+}
+
+.Contact:hover .instagram{
+    margin-left: 100px;
+}
+.Contact:hover .linkedin{
+    margin-left: 125px;
+}
+.Contact:hover .github{
+    margin-left: 100px;
+}
+
+.Contact:hover .vk{
+    margin-left: 35px;
+}
+.Contact a:hover i{
+    transform: scale(0.8);
+}
+
+.face {
+    color: #3b5999;
+}
+
+.instagram {
+    top: 70px;
+    color: #d4475d;
+}
+
+.linkedin {
+    top: 140px;
+    color: #0177b5;
+}
+
+.github {
+    top: 210px;
+    color: black;
+}
+
+.vk {
+    top: 280px;
+    color: #4c75a3;
+}
+
+.Open .Round{
+    margin-left: -165px;
+}
+
+.Open .face{
+    margin-left: 35px;
+}
+
+.Open .instagram{
+    margin-left: 100px;
+}
+.Open .linkedin{
+    margin-left: 125px;
+}
+.Open .github{
+    margin-left: 100px;
+}
+
+.Open .vk{
+    margin-left: 35px;
+}
+.Contact a:hover i{
+    transform: scale(0.8);
+}
+
+@media (max-width: 768px) {
+    .Contact {
+        display: none;
+    }
+}

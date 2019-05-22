@@ -1,0 +1,83 @@
+.Link {
+    cursor: pointer;
+    display: inline-block;
+    text-align: center;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.Button {
+    height: 70px;
+    width: 70px;
+    border-radius: 50% 50%;
+    overflow: hidden;
+    transition: all ease .5s;
+    border: 2px solid whitesmoke;
+}
+
+.Arrow {
+    height: 85px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    background-size: cover;
+    background-position: center;
+    transition: all ease .5s;
+    margin-top: 0;
+}
+
+.Arrow i {
+    color: whitesmoke;
+    transform: scale(2.3);
+}
+
+.Button:hover {
+    transform: scale(1.2, 1.2);
+    border: 0;
+}
+.Button:hover .Arrow {
+    background-color: whitesmoke;
+}
+.Button:hover .Arrow i {
+    color: #0d152e;;
+}
+
+.Arrow {
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-name: toggle;
+}
+
+@keyframes toggle {
+    0% {
+        margin-top: 0;
+    }
+    50% {
+        margin-top: -10px;
+    }
+    100% {
+        margin-top: 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .Button {
+        height: 50px;
+        width: 50px;
+    }
+    .Arrow i {
+        transform: scale(1.7);
+    }
+    @keyframes toggle {
+        0% {
+            margin-top: -10px;
+        }
+        50% {
+            margin-top: -20px;
+        }
+        100% {
+            margin-top: -10px;
+        }
+    }
+}

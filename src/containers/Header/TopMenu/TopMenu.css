@@ -1,0 +1,122 @@
+.Parent {
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 59px;
+    transition: all ease 0.7s;
+    z-index: 100;
+    box-shadow: 0 1px 4px 0 black;
+}
+
+.ParAfter {
+    background-color: whitesmoke;
+}
+
+.HeightScroll {
+    height: 4px;
+    background-color: #e76b39;
+}
+
+.TopMenu {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 50px;
+    padding-bottom: 5px;
+    transition: all ease 0.7s;
+}
+
+.MenuScrolled .Link {
+    color: #040410;
+}
+
+.MenuScrolled .title  span{
+    color: #040410;
+}
+
+.NavBar {
+    display: flex;
+    flex-direction: row;
+    margin-right: 80px;
+    margin-top: 5px;
+}
+
+.title {
+    margin-left: 33px;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    margin-top: -28px;
+}
+.title img {
+    height: 110px;
+    width: 120px;
+    align-items: center;
+    transform: scale(1.1);
+    transition: all ease .7s;
+}
+.title:hover img {
+    transform: scale(1.3);
+}
+
+.Link {
+    text-decoration: none;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px 0 10px;
+    height: 100%;
+    list-style-type: none;
+    cursor: pointer;
+    transition: all ease 0.8s;
+    font-size: 16px;
+    outline: none;
+}
+
+.Link div {
+    height: 2px;
+    margin-top: 3px;
+    width: 0;
+    background-color: #e76b39;
+    transition: all ease .4s;
+}
+
+.NavBar a:hover{
+    color: #e76b39;
+}
+
+.NavBar a:hover div {
+    width: 100%;
+}
+
+.Active div {
+    width: 100%;
+}
+
+
+
+.Logo {
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.title1 {
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    margin-top: -28px;
+}
+.title1 img {
+    height: 110px;
+    width: 120px;
+    align-items: center;
+    transform: scale(1.1);
+    transition: all ease .7s;
+}

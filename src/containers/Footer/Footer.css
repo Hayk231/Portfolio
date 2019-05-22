@@ -1,0 +1,6 @@
+.Footer {
+    width: 100%;
+    /*background-color: #05091e;*/
+    background: linear-gradient(to right, #562614 , #130c21 );
+    /*z-index: 11;*/
+}
