@@ -17,17 +17,21 @@
     width: 3.8rem;
     z-index: 1;
 }
-.line_one, .line_two {
-    height: .2rem;
+
+.Media {
+    height: 2.5rem;
     position: absolute;
-    left: 1.1rem;
-    top: 1.5rem;
     transition: .3s;
-    width: 1.5rem;
+    width: 2.5rem;
     z-index: 2;
+    left: .8rem;
+    top: .7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.line_two {
-    top: 2rem;
+.Media i {
+    font-size: 23px;
 }
 
 .icon_one, .icon_two, .icon_three, .icon_four {
@@ -113,17 +117,8 @@
     opacity: 1;
 }
 
-.Cont input:checked ~ .line_one {
-    background: #120c22;
-    top: 1.8rem;
-    left: 1.2rem;
-    transform: rotate(-45deg);
-}
-.Cont input:checked ~ .line_two {
-    background: #120c22;
-    top: 1.8rem;
-    left: 1.2rem;
-    transform: rotate(45deg);
+.Cont input:checked ~ .Media {
+    transform: rotate(90deg);
 }
 
 @keyframes jig-one {

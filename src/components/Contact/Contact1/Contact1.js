@@ -6,8 +6,9 @@ const contact1 = (props) => {
         <div className={classes.Cont}>
             <input type='checkbox'></input>
             <div className={classes.menu}></div>
-            <div className={classes.line_one} style={{background: props.spanColor}}></div>
-            <div className={classes.line_two} style={{background: props.spanColor}}></div>
+            {/*<div className={classes.line_one} style={{background: props.spanColor}}></div>*/}
+            {/*<div className={classes.line_two} style={{background: props.spanColor}}></div>*/}
+            <div className={classes.Media} style={{color: props.spanColor}}><i className="fas fa-share-alt"></i></div>
             <div className={classes.icon_one}>
                 <a href='https://www.facebook.com/' target="_blank" rel="noopener noreferrer">
                     <i className="fab fa-facebook-f"></i>
