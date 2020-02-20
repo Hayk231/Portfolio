@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.a75c741e.chunk.css",
+    "main.js": "/Portfolio/static/js/main.38f37b29.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.38f37b29.chunk.js.map",
+    "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
+    "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
+    "static/js/2.da86e669.chunk.js": "/Portfolio/static/js/2.da86e669.chunk.js",
+    "static/js/2.da86e669.chunk.js.map": "/Portfolio/static/js/2.da86e669.chunk.js.map",
+    "index.html": "/Portfolio/index.html",
+    "precache-manifest.2c3086de04905d0dbeda937315c900dc.js": "/Portfolio/precache-manifest.2c3086de04905d0dbeda937315c900dc.js",
+    "service-worker.js": "/Portfolio/service-worker.js",
+    "static/css/main.a75c741e.chunk.css.map": "/Portfolio/static/css/main.a75c741e.chunk.css.map",
+    "static/media/blog.jpg": "/Portfolio/static/media/blog.5f03c54c.jpg",
+    "static/media/burger.jpg": "/Portfolio/static/media/burger.d9626f0c.jpg",
+    "static/media/recipes.jpg": "/Portfolio/static/media/recipes.8de3938b.jpg"
+  }
+}
