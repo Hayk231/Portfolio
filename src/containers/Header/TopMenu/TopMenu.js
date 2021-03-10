@@ -113,10 +113,10 @@ class  TopMenu extends Component {
                             Images
                             <div></div>
                         </Link>
-                        <Link to='proj' duration={450} smooth={true} className={class4.join(' ')}>
+            {/*<Link to='proj' duration={450} smooth={true} className={class4.join(' ')}>
                             Projects
                             <div></div>
-                        </Link>
+                        </Link>*/}
                     </div>
                 </Fragment>
             );

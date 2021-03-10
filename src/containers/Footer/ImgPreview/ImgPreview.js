@@ -1,6 +1,6 @@
 import React from 'react';
 import classes from './ImgPreview.css';
-import DownButton from '../../../components/Buttons/DownButton/DownButton';
+// import DownButton from '../../../components/Buttons/DownButton/DownButton';
 
 const imgPreview = (props) => (
         <div className={classes.ImgPreview} id='images'>
@@ -18,7 +18,7 @@ const imgPreview = (props) => (
                     <img src="https://source.unsplash.com/1000x806" alt='img'></img>
                 </div>
             </div>
-            <DownButton id='proj'/>
+{/*<DownButton id='proj'/>*/}
         </div>
 );
 export default imgPreview;

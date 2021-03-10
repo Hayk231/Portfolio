@@ -2,7 +2,7 @@ import React, { Component} from 'react';
 import classes from './Footer.css';
 import About from './About/About';
 import ImgPreview from './ImgPreview/ImgPreview';
-import Projects from './Projects/Projects';
+// import Projects from './Projects/Projects';
 
 class Footer extends Component {
     render() {
@@ -11,7 +11,7 @@ class Footer extends Component {
                 <h1 id='footer' style={{opacity: 0}}>Welcome</h1>
                 <About/>
                 <ImgPreview/>
-                <Projects/>
+        {/*<Projects/>*/}
             </div>
         );
     }
